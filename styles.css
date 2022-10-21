@@ -1,0 +1,114 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+  }
+  
+  * { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--onyx);
+  }
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  
+  }
+  
+  body{
+  /* CSS HEX */
+  --cultured: #f8f9faff;
+  --cultured-2: #e9ecefff;
+  --gainsboro: #dee2e6ff;
+  --light-gray: #ced4daff;
+  --cadet-blue-crayola: #adb5bdff;
+  --sonic-silver: #6c757dff;
+  --davys-grey: #495057ff;
+  --onyx: #343a40ff;
+  --eerie-black: #212529ff;
+  
+    background-color: whitesmoke;
+    color: var(--onyx);
+  }
+  
+  h1, h2, h3, h4{
+  color: var(--smoky-black)
+  ;}
+  
+  h1{
+  font-family: Garamond, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: 10;
+  }
+
+  h3{
+    margin-top: 3%;
+  }
+  
+  .page{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  
+  .intro{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+  
+  
+  .issues{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .issue{
+    background-color: var(--light-gray);
+    outline: auto;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 1%;
+    min-width: 10mm;
+    max-width: 70mm;
+    margin-bottom: 2%;
+  }
+
+  .lofis{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .lofi{
+    width: 700px;
+    margin-top: 2%;
+    background-color: var(--light-gray);
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+  }
+  
+  .style_guide{
+    margin-left: 20%;
+    margin-top: 2%;
+    
+  }
+  
+  .ex_site{
+    
+    margin-bottom: 5%;
+  }
+
+  
+  
+  
+  
+  
+    
